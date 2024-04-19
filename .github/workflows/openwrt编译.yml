@@ -93,10 +93,10 @@ jobs:
     if: ${{ github.event.repository.owner.id }} == ${{ github.event.sender.id }}
 
     steps:
-      - name: Checkout
+      - name: 切换分支
         uses: actions/checkout@v3
 
-      - name: Initialization environment
+      - name: 初始化编译环境
         id: init
         env:
           DEBIAN_FRONTEND: noninteractive

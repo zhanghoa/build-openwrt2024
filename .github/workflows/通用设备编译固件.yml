@@ -25,7 +25,7 @@ env:
   CONFIG_FILE: config/${{ inputs.source_branch }}/config
   DIY_P1_SH: config/${{ inputs.source_branch }}/diy-part1.sh
   DIY_P2_SH: config/${{ inputs.source_branch }}/diy-part2.sh
-  INStall_FILE: config/${{ inputs.source_branch }}/Ubuntu 22.04
+  INStall_FILE: config/${{ inputs.source_branch }}/Ubuntu22.04
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
